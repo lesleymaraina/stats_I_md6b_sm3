@@ -548,10 +548,28 @@ Number of Fisher Scoring iterations: 1
 </section>
 <section id="negative-binomial-interpreting-the-coefficients-table" class="slide level2">
 <h2>Negative Binomial — Interpreting the Coefficients Table</h2>
-<div style="font-size:0.8em">
-<p><strong>Intercept</strong>: 3.197 - exp(3.197)≈24.4 - model predicts about 24 low-expression genes detected for a reference sample with: - depth = 0 - RIN = 0</p>
-<p><strong>sequencing depth</strong>: 0.0185 - exp(0.0185)≈1.019 - each 1-unit increase in sequencing depth is associated with a 1.9% increase in the expected number of detected low-expression genes - essentially, higher sequencing depth leads to greater sensitivity of detecting low-abundance transcripts</p>
-<p><strong>RNA integrity number</strong>: 0.192 - exp(0.192)≈1.21 - each 1-unit increase in RIN is associated with a 21% increase in the expected number of detected low-expression genes - essentially, higher RMA omtegreity reseves fragile transcripts</p>
+<div style="font-size:0.5em">
+<p><strong>Intercept</strong>: 3.197</p>
+<ul>
+<li>exp(3.197)≈24.4</li>
+<li>model predicts about 24 low-expression genes detected for a reference sample with:
+<ul>
+<li>depth = 0</li>
+<li>RIN = 0</li>
+</ul></li>
+</ul>
+<p><strong>sequencing depth</strong>: 0.0185</p>
+<ul>
+<li>exp(0.0185)≈1.019</li>
+<li>each 1-unit increase in sequencing depth is associated with a 1.9% increase in the expected number of detected low-expression genes</li>
+<li>essentially, higher sequencing depth leads to greater sensitivity of detecting low-abundance transcripts</li>
+</ul>
+<p><strong>RNA integrity number</strong>: 0.192</p>
+<ul>
+<li>exp(0.192)≈1.21</li>
+<li>each 1-unit increase in RIN is associated with a 21% increase in the expected number of detected low-expression genes</li>
+<li>essentially, higher RMA omtegreity reseves fragile transcripts</li>
+</ul>
 </div>
 </section>
 <section id="negative-binomial-interpreting-the-coefficients-table-1" class="slide level2">
